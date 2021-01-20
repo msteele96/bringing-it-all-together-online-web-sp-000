@@ -30,8 +30,8 @@ class Dog
     created.save
   end
 
-  def self.new_from_db
-
+  def self.new_from_db(name: name, breed: breed, id: id)
+    
   end
 
   def self.find_by_id(id)
